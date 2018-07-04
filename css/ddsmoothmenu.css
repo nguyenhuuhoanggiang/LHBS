@@ -6,7 +6,7 @@
 	font-size:101%;
 	position:relative;
 	background-color:#2c4435;
-	z-index:9;
+	z-index:99;
 }
 .ddsmoothmenu{
 	float:left;
@@ -51,7 +51,7 @@
 .ddsmoothmenu ul li a:hover{
 	color:#fff;
 	background-color:#b89000;
-}	
+}
 /*1st sub level menu*/
 .ddsmoothmenu ul li ul{
 	position: absolute;
@@ -103,7 +103,7 @@
 /* Holly Hack for IE \*/
 * html .ddsmoothmenu{
 	height: 1%;
-} 
+}
 /*Holly Hack for IE7 and below*/
 /* ######### CSS classes applied to down and right arrow images  ######### */
 .downarrowclass{
